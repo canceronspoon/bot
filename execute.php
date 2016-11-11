@@ -25,10 +25,10 @@ $response = '';
 if(strpos($text, "/start") === 0 || $text=="ciao") {
 	$response = "Ciao $firstname, benvenuto!";
 }
-elseif($text=="Come stai?") {
+elseif($text=="come stai?") {
 	$response = "Ho il cancro";
 }
-elseif($text=="Che fai?") {
+elseif($text=="che fai?") {
 	$response = "Mi sego";
 }
 else {
